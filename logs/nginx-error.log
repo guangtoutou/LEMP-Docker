@@ -1,0 +1,8 @@
+2017/04/08 00:09:51 [error] 5#5: *1 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", host: "localhost:8888"
+2017/04/08 00:09:57 [error] 5#5: *1 open() "/usr/share/nginx/html/public/index.php" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /public/index.php HTTP/1.1", host: "localhost:8888"
+2017/04/08 00:10:02 [error] 5#5: *1 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", host: "localhost:8888"
+2017/04/08 01:03:43 [error] 5#5: *7 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", host: "localhost:8888"
+2017/04/08 03:48:03 [error] 5#5: *8 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", host: "localhost:8888"
+2017/04/08 03:55:29 [error] 5#5: *1 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", host: "localhost:8888"
+2017/04/08 03:55:42 [error] 5#5: *1 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", host: "localhost:8888"
+2017/04/08 03:55:54 [error] 5#5: *1 open() "/usr/share/nginx/html/public/index.php" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /public/index.php HTTP/1.1", host: "localhost:8888"
