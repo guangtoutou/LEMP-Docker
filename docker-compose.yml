@@ -5,11 +5,11 @@ nginx:
     links:
         - phpfpm
     volumes:
-        - ./nginx/default:/etc/nginx/sites-available/default
-        - ./nginx/default:/etc/nginx/sites-enabled/default
+        - e:/Dev/LEMP-Docker/nginx/default:/etc/nginx/sites-available/default
+        - e:/Dev/LEMP-Docker/nginx/default:/etc/nginx/sites-enabled/default
 
-        - ./logs/nginx-error.log:/var/log/nginx/error.log
-        - ./logs/nginx-access.log:/var/log/nginx/access.log
+        - e:/Dev/LEMP-Docker/logs/nginx-error.log:/var/log/nginx/error.log
+        - e:/Dev/LEMP-Docker/logs/nginx-access.log:/var/log/nginx/access.log
 phpfpm:
     image: php:7.0-fpm
     ports:
